@@ -1,0 +1,224 @@
+/* CSSのリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+/* ここから */
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding:60px 0;
+    text-align: center
+}
+.s {
+    font-size: 70px;
+    display:inline-block;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: #000;
+    
+}
+.header-list {
+
+    padding: 10px 0;
+}
+.header-list-item {
+    margin: 30px;
+}
+.main {
+    padding: auto;
+    clear: left;
+    
+}
+
+
+.main-box {
+    height: 700px;   
+    display: flex;
+    position: relative;
+}
+
+.main-sakika img {
+    width: 100%;
+    height: 80%;
+    padding-left:100px ;
+    display: inline;
+}
+.main-abaut {
+    
+    padding-top: 50px;
+}
+.main-abaut-item {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:aquamarine ;
+    background-size: cover;
+    color: #000000;
+}
+.main-item {
+    width: 100%;
+    height: 1500px;
+    text-align: center;
+}
+.main-item-title {
+    width: 12%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color:aquamarine;
+    background-size: cover;
+    color: #000000;
+    
+}
+.main-item-skill {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    
+    
+}
+.main-item-skill div {
+    width: 100%;
+    margin: 0 auto;
+
+}
+p {
+    margin: 0 100px;
+}
+.skill-title {
+    border-bottom:2px solid rgb(255, 127, 76);
+    margin:0 150px ;
+
+}
+.main-item-skill i {
+    font-size: 90px;
+    padding: 30px 0px 30px 0px;
+}
+
+.main-item-work h1 {
+    width: 12%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    background-color:aquamarine;
+    background-size: cover;
+    color: #000000;
+}
+.main-item-img {
+    position: static;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.main-item-img img {
+    
+    width: 25%;
+    height: 350px;
+    display: inline-block;
+    margin: 10px;
+}
+.contact-form {
+    width: 100%;
+    text-align: center;
+    height: 850px;
+    padding-top: 270px; 
+}
+
+.section-title {
+    width: 12%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    background-size: cover;
+    color: #000000;
+
+}
+.e {
+    border-bottom:2px solid rgb(255, 162, 162); 
+    margin: 0 650px;
+    margin-bottom: 10px;
+}
+input,textarea {
+    
+    margin-bottom:10px;
+    font-size:15px;
+    border:1px solid #dee7ec;
+  }
+
+
+
+
+
+.footer {
+    background-color: rgb(255, 207, 147);
+    text-align: center;
+    font-size: 25px;
+    clear: left;
+    line-height: 100px;
+    margin-top: 300px;
+}
+@media(max-width:670px){
+    .header{
+        width: 100%;
+    }
+    .header-list {
+        display: none;
+    }
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-box {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .main-sakika img {
+        padding-left: 10px;
+    }
+    .main-abaut {
+        padding: 20px 0 0 0;
+        margin: 0 auto;
+    }
+    .main-item {
+        height: 4300px;
+        margin: o auto;
+    }
+    .main-item-skill {
+        flex-direction: column;
+    }
+    p {
+        margin:0px 0px;
+    }
+    .main-item-title {
+        width: 120px;
+    }
+    .main-item-work h1 {
+        width: 120px;
+    }
+    .main-item-img img {
+        width: 100%;
+        margin:80px 0 0 0 ;
+    }
+    .contact-form {
+        padding-top: 570px;  
+    }
+    .section-title {
+        width: 140px;
+    }
+    .e {
+        margin:0 100px 20px 100px;
+    }
+}
